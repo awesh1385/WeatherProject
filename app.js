@@ -58,7 +58,7 @@ document.querySelector(".error").style.display="none";
 
 //this will execute on button click
 searchBtn.addEventListener("click",()=>{
-    if(searchBox.value=="aurangabad"){
+    if(searchBox.value=="aurangabad"|| searchBox.value=="Aurangabad"){
         document.querySelector(".city").innerHTML="Sambhaji Nagar";
     }
     else{
